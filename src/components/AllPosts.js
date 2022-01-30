@@ -26,9 +26,9 @@ export default function AllPosts() {
   console.log(allPostsData);
 
   return (
-    <div className="bg-green-100 min-h-screen p-5">
+    <div className="min-h-screen p-5">
       <div className="container mx-auto">
-        <h2 className="text-5xl flex justify-center cursive">Alejandro Lizarbe</h2>
+        <h2 className="text-5xl flex justify-center cursive">Alejandro</h2>
         <h3 className="text-lg text-gray-600 flex justify-center mb-12">
           awa de uwu
         </h3>
