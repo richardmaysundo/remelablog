@@ -1,0 +1,30 @@
+{
+  "root": true,
+  "api": {
+    "projectId": "hvicqgfx",
+    "dataset": "production"
+  },
+  "project": {
+    "name": "Abogadosaurio Blog Sanity"
+  },
+  "plugins": [
+    "@sanity/base",
+    "@sanity/components",
+    "@sanity/default-layout",
+    "@sanity/default-login",
+    "@sanity/desk-tool"
+  ],
+  "env": {
+    "development": {
+      "plugins": [
+        "@sanity/vision"
+      ]
+    }
+  },
+  "parts": [
+    {
+      "name": "part:@sanity/base/schema",
+      "path": "./schemas/schema"
+    }
+  ]
+}
