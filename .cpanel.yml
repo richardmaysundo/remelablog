@@ -1,6 +1,5 @@
 --- 
 deployment: 
      tasks: 
-          - npm run build /home2/abogadx4/repositories/remelablog/
           - export DEPLOYPATH=/home2/abogadx4/public_html/
-          - /bin/cp -R build $DEPLOYPATH
+          - /bin/cp -R dist $DEPLOYPATH
