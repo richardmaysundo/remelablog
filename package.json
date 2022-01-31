@@ -1,6 +1,7 @@
 {
   "name": "sanity-react",
   "version": "0.1.0",
+  "homepage": ".",
   "private": true,
   "dependencies": {
     "@sanity/block-content-to-react": "^2.0.7",
